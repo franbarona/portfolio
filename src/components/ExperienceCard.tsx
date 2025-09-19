@@ -16,12 +16,12 @@ export const ExperienceCard = ({ item }: ExperienceCardProps) => {
         <div className="z-10 sm:col-span-6">
           <h3 className="font-medium leading-snug text-slate-200">
             <div>
-              <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base">
+              <div className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base">
                 {/* <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" /> */}
                 <span>
                   {item.work} · <a href={item.url} target="_blank" className="capitalize hover:underline">{item.company}</a>
                 </span>
-              </a>
+              </div>
             </div>
           </h3>
           <p className="mt-2 text-sm leading-normal">
