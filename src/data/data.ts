@@ -55,8 +55,8 @@ export const jobsData: JobProps[] = [
     id: "job4",
     company: "intelectiva",
     work: "Mobile App Developer",
-    from: "Oct 2017",
-    to: "Mar 2019",
+    from: "Jan 2016",
+    to: "Oct 2017",
     description: [
       "In addition, I have experience developing mobile applications for Android and iOS, with a focus on iOS. I have worked both independently and within a team, handling the full development process, from coding to testing and deploying apps on various app stores.",
     ],
@@ -80,7 +80,7 @@ export const projectsData: ProjectProps[] = [
     description:
       "Mini game developed with react and three for generate an interactive globe with the proposite of find and press the most countries posibles in allowed time",
     tags: ["React", "react-globe.gl", "three", "Framer Motion", "Tailwindcss", "TypeScript"],
-    url: 'https://find-the-country-3d.franbarona.dev/'
+    url: 'https://find-the-country.franbarona.dev/'
   }
 ];
 
