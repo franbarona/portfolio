@@ -1,4 +1,3 @@
-// src/components/MouseSpotlight.tsx
 import { useEffect, useRef } from 'react';
 
 const MouseSpotlight = () => {
@@ -12,7 +11,6 @@ const MouseSpotlight = () => {
       const x = e.clientX;
       const y = e.clientY;
 
-      // Como usamos translate(-50%, -50%) en CSS, no necesitamos restar la mitad aquí
       spotlight.style.left = `${x}px`;
       spotlight.style.top = `${y}px`;
     };
