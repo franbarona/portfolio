@@ -67,6 +67,14 @@ export const jobsData: JobProps[] = [
 
 export const projectsData: ProjectProps[] = [
   {
+    title: "Voltify - EV Charger Stations Finder",
+    image: 'images/voltify.png',
+    description:
+      "voltify allows users to search for electric vehicle charging stations on an interactive map and display detailed information about each station, including location, availability, and charging specifications.",
+    tags: ["React", "Leafletjs", "OpenChargeMap", "Geoapify", "Framer", "Typescript", "Tailwind"],
+    url: 'https://voltify.franbarona.dev/'
+  },
+  {
     title: "Monetix - Expense Manager",
     image: 'images/monetix.png',
     description:
