@@ -67,6 +67,14 @@ export const jobsData: JobProps[] = [
 
 export const projectsData: ProjectProps[] = [
   {
+    title: "FlowDesk - Project management tool",
+    image: 'images/flow-desk.png',
+    description:
+      "FlowDesk is a project management tool where teams can plan all their work, from creating and organizing projects to detailing individual tasks. In this demo, you can create, edit or delete project, tasks, tags or users.",
+    tags: ["Angular", "RxJs", "Standalone", "Typescript", "Tailwind"],
+    url: 'https://flow-desk.franbarona.dev/'
+  },
+  {
     title: "Voltify - EV Charger Stations Finder",
     image: 'images/voltify.png',
     description:
