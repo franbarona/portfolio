@@ -6,7 +6,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "skipLibCheck": true,
-    "noEmit": false, // Esto se puede permitir para que compilen los archivos
+    "noEmit": true, // Esto se puede permitir para que compilen los archivos
   },
   "include": ["src"]
 }
