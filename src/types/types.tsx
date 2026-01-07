@@ -5,7 +5,7 @@ export interface JobProps {
   work: string;
   from: string;
   to: string;
-  description: string[];
+  description: string;
   tags?: string[];
   url?: string;
 }

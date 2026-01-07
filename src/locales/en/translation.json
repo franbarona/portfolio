@@ -1,0 +1,68 @@
+{
+    "intro": {
+        "summary": "I build scalable, visually polished user experiences for the web (and much more...).",
+        "downloadCv": "Download Resume"
+    },
+    "sections": {
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects"
+    },
+    "about": {
+        "title": "About",
+        "paragraphs": [
+            "I'm a software developer based in Valencia (Spain), with a strong focus on building accessible and visually polished user interfaces. I’m especially drawn to projects where some design and development meet — where I can implement thoughtful user experiences to life through clean, efficient code and performance-focused solutions.",
+            "While my experience focuses on Full-Stack development using the MEAN stack, I'm currently working as a Senior Front-End Engineer at Softtek, assigned to the client SERES. There, I help to build, and maintain reusable UI components that drive the core of their frontend architecture, ensuring the platform is both functional and inclusive, aligned with web standards and best practices.",
+            "Since I finished my degree in Computer Science from the University of Valencia in 2015, I’ve worked across a range of industries — from fintech startups to large enterprises in the energy, utilities, and e-invoicing sectors — gaining experience in diverse technical environments.",
+            "In my free time, I'm usually running, playing tennis or padel, hanging out with my friends, or traveling around the world discovering new places."
+        ],
+        "highlights": [
+            "Valencia",
+            "Full-Stack",
+            "MEAN",
+            "Senior Front-End Engineer",
+            "Computer Science",
+            "University of Valencia"
+        ]
+    },
+    "jobs": {
+        "softtek": {
+            "work": "Full-stack Web",
+            "description": "Currently, I am working as a Front-End Developer in collaboration with a team on a management application focused on the electronic invoicing and document exchange sector. My role involves both developing new features and adapting existing functionalities to meet the specific needs of our clients, ensuring the application is both user-friendly and highly functional."
+        },
+        "powerElectronics": {
+            "work": "Team Leader",
+            "description": "I have developed a range of web applications, both for internal and external use, with a focus on the renewable energy sector. My work has involved creating and evolving support tools, logistics systems, and data monitoring platforms. From defining architecture to handling migration and deployment, I’ve been involved in every stage of the project lifecycle.As a Team Leader in Software Development, I managed and coordinated a development team, ensuring efficient workflow planning and task prioritization. I was responsible for time estimations, code reviews, and testing to maintain high-quality standards throughout the development process."
+        },
+        "finametrix": {
+            "work": "Full-Stack Web",
+            "description": "I have developed full-stack web applications within the financial sector, working directly with external clients. My responsibilities included task planning and collaborative development, ensuring high-quality solutions tailored to client needs."
+        },
+        "edicom": {
+            "work": "Edi consultant",
+            "description": "As a Consultant, I held client meetings and worked on data conversion mapping (XML, EDI, IDOC). I also configured data flows and B2B connections, ensuring seamless communication and integration between systems."
+        },
+        "intelectiva": {
+            "work": "Mobile App Developer",
+            "description": "In addition, I have experience developing mobile applications for Android and iOS, with a focus on iOS. I have worked both independently and within a team, handling the full development process, from coding to testing and deploying apps on various app stores."
+        }
+    },
+    "projects": {
+        "flowDesk": {
+            "title": "FlowDesk - Project management tool",
+            "description": "FlowDesk is a project management tool where teams can plan all their work, from creating and organizing projects to detailing individual tasks. In this demo, you can create, edit or delete project, tasks, tags or users."
+        },
+        "voltify": {
+            "title": "Voltify - EV Charger Stations Finder",
+            "description": "Voltify allows users to search for electric vehicle charging stations on an interactive map and display detailed information about each station, including location, availability, and charging specifications."
+        },
+        "monetix": {
+            "title": "Monetix - Expense Manager",
+            "description": "Monetix is a modern web app expense manager developed with react and echarts. Focused on tracking our expenses and income. In this demo, you can create, edit, and delete transactions and categories, as well as view a global statistics dashboard."
+        },
+        "findTheCountry": {
+            "title": "Find The Country 3d - Minigame",
+            "description": "Mini game developed with react and three for generate an interactive globe with the proposite of find and press the most countries posibles in allowed time."
+        }
+    }
+}

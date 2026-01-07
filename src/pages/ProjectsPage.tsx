@@ -1,14 +1,16 @@
+import { useTranslatedData } from "@/hooks/useTranslatedData";
 import { ProjectCard } from "../components/ProjectCard";
 import { SectionTitle } from "../components/SectionTitle";
-import { projectsData } from "../data/data";
 
 const ProjectsPage: React.FC = () => {
+  const { projects } = useTranslatedData();
+
   return (
     <>
-      <SectionTitle title="Projects" />
+      <SectionTitle title="Recent projects" />
       <ol className="group/list">
         {
-          projectsData.map((item, index) => (
+          projects.map((item, index) => (
             <ProjectCard key={index} item={item} />
           ))
         }

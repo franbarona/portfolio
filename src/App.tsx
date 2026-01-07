@@ -12,8 +12,10 @@ import { SocialMediaList } from "./components/SocialMediaList";
 import Footer from "./components/Footer";
 import { TypingTextEffect } from "./components/animate-ui/TypingTextEffect";
 import { ChevronRight } from "./components/animate-ui/icons/chevron-right";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState<string>("about");
 
   const sectionRefs: Record<SectionId, RefObject<HTMLElement | null>> = {
@@ -63,8 +65,7 @@ function App() {
                     ></TypingTextEffect>
                   </h2>
                   <p className="mt-4 max-w-xs leading-normal">
-                    I build scalable, visually polished user experiences for the
-                    web (and much more...).
+                    {t("intro.summary")}
                   </p>
                   <DownloadCv />
 

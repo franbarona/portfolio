@@ -1,20 +1,20 @@
+import { useTranslatedData } from "@/hooks/useTranslatedData";
 import { ExperienceCard } from "../components/ExperienceCard";
 import { SectionTitle } from "../components/SectionTitle";
-import { jobsData } from "../data/data";
 
 const ExperiencePage: React.FC = () => {
+  const { jobs } = useTranslatedData();
+
   return (
     <>
       <SectionTitle title="Experience" />
       <ol className="group/list">
-        {
-          jobsData.map((item, index) => (
-            <ExperienceCard key={index} item={item} />
-          ))
-        }
+        {jobs.map((item) => (
+          <ExperienceCard key={item.id} item={item} />
+        ))}
       </ol>
     </>
-  )
-}
+  );
+};
 
 export default ExperiencePage;

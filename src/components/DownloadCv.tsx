@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { ArrowUp } from "./animate-ui/icons/arrow-up";
 import { useState } from "react";
 
@@ -21,6 +22,7 @@ const Arrow = () => {
 };
 
 export const DownloadCv = () => {
+  const { t } = useTranslation();
   return (
     <div className="mt-12">
       <a
@@ -30,10 +32,10 @@ export const DownloadCv = () => {
         rel="noreferrer noopener"
         aria-label="View Full Resume (opens in a new tab)"
       >
-          <span>Download Resume</span>
-          <span className="rotate-45 group-hover:animate-bounce">
-            <Arrow  />
-          </span>
+        <span>{t("intro.downloadCv")}</span>
+        <span className="rotate-45 group-hover:animate-bounce">
+          <Arrow />
+        </span>
       </a>
     </div>
   );

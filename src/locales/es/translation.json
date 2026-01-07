@@ -1,0 +1,68 @@
+{
+    "intro": {
+        "summary": "Desarrollo aplicaciones web escalables, fluidas y visualmente pulidas (y mucho más...).",
+        "downloadCv": "Descargar CV"
+    },
+    "sections": {
+        "about": "Acerca de",
+        "experience": "Experiencia",
+        "projects": "Proyectos"
+    },
+    "about": {
+        "title": "Acerca de",
+        "paragraphs": [
+            "Soy desarrollador de software que vive actualmente en Valencia (España), con un fuerte enfoque en la creación de interfaces de usuario accesibles y visualmente pulidas. Me atraen especialmente los proyectos que combinan diseño y desarrollo, donde puedo dar vida a experiencias de usuario bien pensadas mediante código limpio y eficiente y soluciones centradas en el rendimiento.",
+            "Aunque mi experiencia se centra en el desarrollo full-stack con la pila MEAN, actualmente trabajo como Ingeniero Front-End Senior en Softtek, asignado al cliente SERES. Allí, ayudo a crear y mantener componentes de interfaz de usuario reutilizables que impulsan la esencia de su arquitectura front-end, garantizando que la plataforma sea funcional e inclusiva, alineada con los estándares web y las mejores prácticas.",
+            "Desde que terminé mi licenciatura en Informática en la Universidad de Valencia en 2015, he trabajado en una variedad de industrias, desde startups fintech hasta grandes empresas en los sectores de energía, servicios públicos y facturación electrónica, adquiriendo experiencia en diversos entornos técnicos.",
+            "En mi tiempo libre suelo correr, jugar al tenis o al pádel, salir con mis amigos o viajar por el mundo descubriendo nuevos lugares."
+        ],
+        "highlights": [
+            "Valencia",
+            "Full-Stack",
+            "MEAN",
+            "Ingeniero Front-End Senior",
+            "Informática",
+            "Universidad de Valencia"
+        ]
+    },
+    "jobs": {
+        "softtek": {
+            "work": "Full-stack Web",
+            "description": "Actualmente, trabajo como desarrollador front-end en colaboración con un equipo en una aplicación de gestión centrada en el sector de la facturación electrónica y el intercambio de documentos. Mi función consiste en desarrollar nuevas funcionalidades y adaptar las existentes para satisfacer las necesidades específicas de nuestros clientes, garantizando una aplicación intuitiva y altamente funcional."
+        },
+        "powerElectronics": {
+            "work": "Team Leader",
+            "description": "He desarrollado una variedad de aplicaciones web, tanto para uso interno como externo, con un enfoque en el sector de la energía renovable. Mi trabajo ha consistido en crear y evolucionar herramientas de soporte, sistemas logísticos y plataformas de monitoreo de datos. Desde definir la arquitectura hasta manejar la migración y despliegue, he participado en cada etapa del ciclo de vida del proyecto. Como líder del equipo de desarrollo, gestioné y coordiné a un equipo de desarrollo, asegurando una planificación eficiente del flujo de trabajo y priorización de tareas. Fui responsable de estimaciones de tiempo, revisiones de código y pruebas para mantener altos estándares de calidad durante todo el proceso de desarrollo."
+        },
+        "finametrix": {
+            "work": "Full-Stack Web",
+            "description": "He desarrollado aplicaciones web full-stack dentro del sector financiero, trabajando directamente con clientes externos. Mis responsabilidades incluyeron planificación de tareas y desarrollo colaborativo, garantizando soluciones de alta calidad adaptadas a las necesidades de los clientes."
+        },
+        "edicom": {
+            "work": "Edi consultant",
+            "description": "Como consultor, he mantenido reuniones con clientes y trabajado en mapeo de conversiones de datos (XML, EDI, IDOC). También he configurado flujos de datos y conexiones B2B, asegurando una comunicación y una integración fluida entre sistemas."
+        },
+        "intelectiva": {
+            "work": "Mobile App Developer",
+            "description": "Además, tengo experiencia desarrollando aplicaciones móviles para Android e iOS, con un enfoque en iOS. He trabajado tanto de forma independiente como dentro de un equipo, manejando todo el proceso de desarrollo, desde la codificación hasta las pruebas y despliegue de aplicaciones en varias tiendas de aplicaciones."
+        }
+    },
+    "projects": {
+        "flowDesk": {
+            "title": "FlowDesk - Herramienta de gestión de proyectos",
+            "description": "FlowDesk es una herramienta de gestión de proyectos que permite a los equipos planificar todo su trabajo, desde la creación y organización de proyectos hasta el detalle de tareas individuales. En esta demo, puedes crear, editar o eliminar proyectos, tareas, etiquetas o usuarios."
+        },
+        "voltify": {
+            "title": "Voltify - Buscador de Estaciones de Carga Eléctrica",
+            "description": "Voltify permite a los usuarios buscar estaciones de carga para vehículos eléctricos en un mapa interactivo y mostrar información detallada sobre cada estación, incluyendo ubicación, disponibilidad y especificaciones de carga."  
+        },
+        "monetix": {
+            "title": "Monetix - Gestor de gastos",
+            "description": "Monetix es una aplicación web para gestionar gastos desarrollada con react y echarts. Centrada en el seguimiento de nuestros gastos e ingresos. En esta demo, puedes crear, editar y eliminar transacciones y categorías, así como ver un panel global de estadísticas."
+        },
+        "findTheCountry": {
+            "title": "Find The Country 3d - Minijuego",
+            "description": "Desarrollado con react y three. Se trata de un mini juego de geografía cuya finalidad es encontrar la mayor cantidad de países posibles en el globo terraqueo antes de que se termine el tiempo."
+        }
+    }
+}
