@@ -25,9 +25,10 @@ const SendIcon = () => {
 export const SocialMediaList = () => {
   return (
     <div className="flex mt-8 gap-4 items-center">
-        <LanguageSwitcher />
-      <ul className="ml-1 flex items-center gap-5">
-        {/* <MoonIcon /> */}
+      <ul className="flex items-center gap-5 relative">
+        <div className="w-7 h-full">
+          <LanguageSwitcher />
+        </div>
         <a href="https://github.com/franbarona" target="_blank">
           <FaGithub
             size={24}

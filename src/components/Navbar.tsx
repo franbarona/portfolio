@@ -31,7 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
               <span
                 className={`nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 group-focus-visible:text-slate-200 ${
                   activeSection === item.id
-                    ? "w-12 text-slate-200"
+                    ? "text-slate-200"
                     : "text-slate-500"
                 }`}
               >
