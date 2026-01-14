@@ -13,7 +13,7 @@ export const SectionTitle = ({ title, hideOnLarge = false }: SectionTitleProps) 
         !hideOnLarge &&
         <div className=" gap-8 items-center hidden lg:flex">
           <span className="h-px w-full my-8 border-0 bg-gray-700" />
-          <h2 className="text-sm font-bold uppercase tracking-widest text-teal-300">{title}</h2>
+          <h2 className="text-sm font-bold uppercase tracking-widest text-teal-300 whitespace-nowrap">{title}</h2>
         </div>
       }
     </>

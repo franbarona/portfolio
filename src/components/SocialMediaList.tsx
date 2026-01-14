@@ -26,7 +26,7 @@ export const SocialMediaList = () => {
   return (
     <div className="flex mt-8 gap-4 items-center">
       <ul className="flex items-center gap-5 relative">
-        <div className="w-7 h-full">
+        <div className="w-6.5">
           <LanguageSwitcher />
         </div>
         <a href="https://github.com/franbarona" target="_blank">

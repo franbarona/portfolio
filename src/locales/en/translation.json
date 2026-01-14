@@ -6,7 +6,8 @@
     "sections": {
         "about": "About",
         "experience": "Experience",
-        "projects": "Projects"
+        "projects": "Projects",
+        "recent_projects": "Recent Projects"
     },
     "about": {
         "title": "About",
