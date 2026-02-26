@@ -52,7 +52,7 @@ function App() {
           </div>
           <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-16 lg:py-0">
             <div className="lg:flex lg:justify-between lg:gap-4">
-              <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:pt-24 lg:pb-16">
+              <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[45%] lg:flex-col lg:justify-between lg:pt-24 lg:pb-16">
                 <div>
                   <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                     <a href="#">Fran Barona</a>
@@ -73,7 +73,7 @@ function App() {
                 </div>
                 <SocialMediaList />
               </header>
-              <main className="pt-16 lg:w-[52%] lg:pt-24 lg:pb-5">
+              <main className="pt-16 lg:w-[55%] lg:pt-24 lg:pb-5">
                 <Section id="about" innerRef={sectionRefs.about}>
                   <AboutPage />
                 </Section>

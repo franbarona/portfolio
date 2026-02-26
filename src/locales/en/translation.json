@@ -49,6 +49,14 @@
         }
     },
     "projects": {
+        "rockPaperScissorsFront": {
+            "title": "Rock paper scissors - Minigame (Frontend)",
+            "description": "Frontend part of the rock, paper, scissors game developed with Angular. Play against the server. Login screen, game screen, statistics, and match history."
+        },
+        "rockPaperScissorsBack": {
+            "title": "Rock paper scissors - Minigame (Backend)",
+            "description": "Backend part of the rock, paper, scissors game developed with Java Spring Boot. User authentication, game logic, statistics, and match storage in a relational database."
+        },
         "flowDesk": {
             "title": "FlowDesk - Project management tool",
             "description": "FlowDesk is a project management tool where teams can plan all their work, from creating and organizing projects to detailing individual tasks. In this demo, you can create, edit or delete project, tasks, tags or users."

@@ -88,11 +88,22 @@ export const jobsData: JobProps[] = [
 
 export const projectsData: ProjectProps[] = [
   {
-    // title: "FlowDesk - Project management tool",
+    title: "projects.rockPaperScissorsFront.title",
+    image: "images/rock-paper-scissors-front.png",
+    description: "projects.rockPaperScissorsFront.description",
+    tags: ["Angular", "RxJs", "Standalone", "Typescript", "Tailwind"],
+    url: "https://github.com/franbarona/Rock-Paper-Scissors-Frontend",
+  },
+  {
+    title: "projects.rockPaperScissorsBack.title",
+    image: "images/rock-paper-scissors-back.png",
+    description: "projects.rockPaperScissorsBack.description",
+    tags: ["Java", "Spring Boot", "REST APIs", "MySQL", "JUnit", "More..."],
+    url: "https://github.com/franbarona/Rock-Paper-Scissors-Backend",
+  },
+  {
     title: "projects.flowDesk.title",
     image: "images/flow-desk.png",
-    // description:
-    // "FlowDesk is a project management tool where teams can plan all their work, from creating and organizing projects to detailing individual tasks. In this demo, you can create, edit or delete project, tasks, tags or users.",
     description: "projects.flowDesk.description",
     tags: ["Angular", "RxJs", "Standalone", "Typescript", "Tailwind"],
     url: "https://flow-desk.franbarona.dev/",
